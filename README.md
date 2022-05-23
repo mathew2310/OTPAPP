@@ -1,4 +1,4 @@
-# OTPAPP-
+# OTPAPP
 
 1. Go to device setting -> Passwords 
 2. Enable auto fill passwords. 
