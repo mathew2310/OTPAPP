@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04BD90FF283BDC1100532E8F /* OtpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD90FE283BDC1100532E8F /* OtpViewModel.swift */; };
+		26355D5E283651C200513826 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26355D5D283651C200513826 /* StartViewController.swift */; };
 		268E5730283560E8007DF98F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268E572F283560E8007DF98F /* AppDelegate.swift */; };
 		268E5732283560E8007DF98F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268E5731283560E8007DF98F /* SceneDelegate.swift */; };
-		268E5734283560E8007DF98F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268E5733283560E8007DF98F /* ViewController.swift */; };
+		268E5734283560E8007DF98F /* OtpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268E5733283560E8007DF98F /* OtpViewController.swift */; };
 		268E5737283560E8007DF98F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268E5735283560E8007DF98F /* Main.storyboard */; };
 		268E5739283560EA007DF98F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 268E5738283560EA007DF98F /* Assets.xcassets */; };
 		268E573C283560EA007DF98F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268E573A283560EA007DF98F /* LaunchScreen.storyboard */; };
@@ -36,10 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04BD90FE283BDC1100532E8F /* OtpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpViewModel.swift; sourceTree = "<group>"; };
+		26355D5D283651C200513826 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		268E572C283560E8007DF98F /* OTPApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTPApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		268E572F283560E8007DF98F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		268E5731283560E8007DF98F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		268E5733283560E8007DF98F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		268E5733283560E8007DF98F /* OtpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpViewController.swift; sourceTree = "<group>"; };
 		268E5736283560E8007DF98F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		268E5738283560EA007DF98F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		268E573B283560EA007DF98F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,11 +105,13 @@
 			children = (
 				268E572F283560E8007DF98F /* AppDelegate.swift */,
 				268E5731283560E8007DF98F /* SceneDelegate.swift */,
-				268E5733283560E8007DF98F /* ViewController.swift */,
+				268E5733283560E8007DF98F /* OtpViewController.swift */,
+				26355D5D283651C200513826 /* StartViewController.swift */,
 				268E5735283560E8007DF98F /* Main.storyboard */,
 				268E5738283560EA007DF98F /* Assets.xcassets */,
 				268E573A283560EA007DF98F /* LaunchScreen.storyboard */,
 				268E573D283560EA007DF98F /* Info.plist */,
+				04BD90FE283BDC1100532E8F /* OtpViewModel.swift */,
 			);
 			path = OTPApp;
 			sourceTree = "<group>";
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				268E5734283560E8007DF98F /* ViewController.swift in Sources */,
+				268E5734283560E8007DF98F /* OtpViewController.swift in Sources */,
+				26355D5E283651C200513826 /* StartViewController.swift in Sources */,
+				04BD90FF283BDC1100532E8F /* OtpViewModel.swift in Sources */,
 				268E5730283560E8007DF98F /* AppDelegate.swift in Sources */,
 				268E5732283560E8007DF98F /* SceneDelegate.swift in Sources */,
 			);
@@ -366,7 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +428,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -437,7 +445,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HQ85C2PMCL;
+				DEVELOPMENT_TEAM = 7Z83R8NCYV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OTPApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -450,7 +458,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Mathew-Ijidakinro.OTPApp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mac.OTPApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
